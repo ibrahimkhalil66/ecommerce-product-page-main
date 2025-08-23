@@ -6,10 +6,10 @@ function displayImage() {
   const fourthImg = document.querySelector(".image-product-4");
 
   const thumnails = [
-    `<img src="/images/image-product-1.jpg" alt="">`,
-    `<img src="/images/image-product-2.jpg" alt="">`,
-    `<img src="/images/image-product-3.jpg" alt="">`,
-    `<img src="/images/image-product-4.jpg" alt="">`,
+    `<img src="image-product-1.jpg" alt="">`,
+    `<img src="image-product-2.jpg" alt="">`,
+    `<img src="image-product-3.jpg" alt="">`,
+    `<img src="image-product-4.jpg" alt="">`,
   ];
 
   firstImg.addEventListener("click", () => {
