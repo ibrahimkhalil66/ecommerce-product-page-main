@@ -91,7 +91,7 @@ main {
 }
 
 .big-picture img {
-  width: 95%;
+  width: 100%;
 }
 .big-picture:hover {
   transform: scale(1.2);
@@ -103,7 +103,7 @@ main {
 }
 
 .images img {
-  width: 21%;
+  width: 22.5%;
   border: 2px solid transparent;
 }
 .images img:hover {
