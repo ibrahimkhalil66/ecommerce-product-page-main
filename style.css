@@ -17,10 +17,12 @@ body {
   margin: 0;
   font-family: Kumbh Sans;
   padding: 0 8rem;
+  display: grid;
 }
 
 .container {
   margin-bottom: 5rem;
+  width: 100%;
 }
 
 /** 
@@ -52,12 +54,15 @@ nav a {
 }
 
 nav span {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
+  margin-right: 0;
 }
 
 nav .avatar {
   width: 3rem;
+  margin-right: 0;
 }
 
 nav .cart {
@@ -86,7 +91,7 @@ main {
 }
 
 .big-picture img {
-  width: 400px;
+  width: 95%;
 }
 .big-picture:hover {
   transform: scale(1.2);
@@ -98,7 +103,7 @@ main {
 }
 
 .images img {
-  width: 88px;
+  width: 21%;
   border: 2px solid transparent;
 }
 .images img:hover {
@@ -219,6 +224,3 @@ main {
   color: hsl(220, 13%, 13%);
 }
 
-@media (max-width: 375px) {
-
-}
