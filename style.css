@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -214,4 +217,8 @@ main {
 
 .btn:active {
   color: hsl(220, 13%, 13%);
+}
+
+@media (max-width: 375px) {
+
 }
