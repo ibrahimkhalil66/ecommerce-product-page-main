@@ -167,6 +167,7 @@ main {
   border: 0;
   padding: 0.1rem 1rem;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .minus-btn:active,
